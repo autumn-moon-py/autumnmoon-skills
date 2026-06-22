@@ -1,0 +1,32 @@
+# === 密钥与敏感文件 ===
+.secret.key
+
+# === 数据库与锁文件 ===
+skills-manager.db
+skills-manager.db-shm
+skills-manager.db-wal
+.skills-manager.lock
+
+# === 缓存 ===
+cache/
+
+# === 日志 ===
+logs/
+
+# === 技能管理器内部状态 ===
+skills/.skills-manager/
+
+# === 操作系统文件 ===
+.DS_Store
+Thumbs.db
+
+# === 编辑器与 IDE ===
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.claude/
+
+# === 场景临时文件 ===
+scenarios/
