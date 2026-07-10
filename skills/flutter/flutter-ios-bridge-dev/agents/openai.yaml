@@ -1,7 +1,0 @@
-interface:
-  display_name: "Flutter iOS 桥接开发"
-  short_description: "Flutter 与 iOS 原生边界层、Plugin、通道与联调"
-  default_prompt: "使用 $flutter-ios-bridge-dev 帮我设计或实现 Flutter 与 iOS 原生之间的桥接层。"
-
-policy:
-  allow_implicit_invocation: true

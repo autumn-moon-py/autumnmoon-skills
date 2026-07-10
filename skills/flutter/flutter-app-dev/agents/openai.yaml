@@ -1,7 +1,0 @@
-interface:
-  display_name: "Flutter 应用开发"
-  short_description: "纯 Flutter 业务开发、状态、导航、主题与测试"
-  default_prompt: "使用 $flutter-app-dev 帮我处理一个纯 Flutter 功能开发或重构任务。"
-
-policy:
-  allow_implicit_invocation: true
