@@ -1204,3 +1204,27 @@ But that is **web glassmorphism / frosted-glass approximation**, not official Ap
 ---
 
 **End of appendices.** Install commands above are reality anchors. The Apple Liquid Glass skeleton is a labeled approximation, not an Apple-issued package. For canonical docs per design system, consult the system's official docs (links in Section 2 plus Appendix B).
+
+---
+
+## V1 向后兼容说明
+
+此前存在一个独立的 `design-taste-frontend-v1` skill，现已合并至此。
+
+**V1 与 V2 的关键差异：**
+
+| 差异点 | V1 (`design-taste-frontend-v1`) | V2 (`design-taste-frontend`，当前版本) |
+|--------|------|------|
+| 设计推断 | 无 Brief Inference，直接用固定基线值 | Section 0: Brief Inference，先读信号再设旋钮 |
+| 旋钮推断 | 手动设置，无推断表 | Section 1.A: 信号→旋钮推断表 + 用例预设 |
+| 设计系统选择 | 无系统选择指导 | Section 2: Brief→Design System Map，区分官方包 vs 美学方向 |
+| 字体纪律 | 禁 Serif 作为默认 | 更严格的 Serif Discipline，明确 BANNED 字体列表 |
+| 颜色纪律 | Lila Ban | 更严格的 Premium-Consumer Palette Ban，禁止暖纸+黄铜色系 |
+| 布局纪律 | 基础 Anti-Center | Hero Stack Discipline、Eyebrow Restraint、Split-Header Ban、Zigzag Cap 等 |
+| 内容密度 | 无 | Section 4.9: Content Density，Copy Self-Audit |
+| 暗模式 | 简单提及 | Section 8: 完整 Dark Mode Protocol |
+| 可访问性 | 简单提及 | Section 6: 完整 Performance & Accessibility Guardrails |
+| GSAP 模式 | 无 | Section 5.A/5.B: Sticky-Stack / Horizontal-Pan 骨架代码 |
+| 引用路径 | `framer-motion` | `motion/react`（Motion 库新名） |
+
+**迁移：** 如果你之前的安装名是 `design-taste-frontend-v1`，请改为安装 `design-taste-frontend`。V1 的固定基线（8/6/4）在 V2 中仍是默认值，行为兼容。

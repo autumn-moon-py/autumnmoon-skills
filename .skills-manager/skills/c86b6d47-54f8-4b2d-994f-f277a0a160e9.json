@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "skill_id": "b8e34af2-63f2-44c9-81df-2204ddd06e93",
-  "path": "humanizer-zh",
-  "path_key": "humanizer-zh",
+  "skill_id": "c86b6d47-54f8-4b2d-994f-f277a0a160e9",
+  "path": "using-design",
+  "path_key": "using-design",
   "enabled": true,
   "tags": [],
   "source": {
