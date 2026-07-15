@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f02d4c0b-c935-4a0d-9028-0320dfbb716b",
+  "path": "using-flutter",
+  "path_key": "using-flutter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

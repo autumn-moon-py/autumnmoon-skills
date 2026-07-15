@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f69fbff-74bb-492e-a80f-132f0a022a73",
+  "path": "jp-garbled-rename",
+  "path_key": "jp-garbled-rename",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
