@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "skill_id": "dff2b8cd-d37d-45fc-b975-c80377307190",
-  "path": "ponytail",
-  "path_key": "ponytail",
+  "path": "using-superpowers/plugins/ponytail",
+  "path_key": "using-superpowers/plugins/ponytail",
   "enabled": true,
   "tags": [],
   "source": {

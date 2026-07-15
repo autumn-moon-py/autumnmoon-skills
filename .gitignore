@@ -31,3 +31,4 @@ Thumbs.db
 # === 场景临时文件 ===
 scenarios/
 *.tmp
+.skills-manager/.DS_Store

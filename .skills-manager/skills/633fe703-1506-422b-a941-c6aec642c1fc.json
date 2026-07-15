@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "633fe703-1506-422b-a941-c6aec642c1fc",
+  "path": "using-design",
+  "path_key": "using-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

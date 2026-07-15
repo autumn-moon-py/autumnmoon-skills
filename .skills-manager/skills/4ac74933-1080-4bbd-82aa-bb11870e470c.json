@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "skill_id": "4ac74933-1080-4bbd-82aa-bb11870e470c",
-  "path": "writing-skills",
-  "path_key": "writing-skills",
+  "path": "using-superpowers/plugins/writing-skills",
+  "path_key": "using-superpowers/plugins/writing-skills",
   "enabled": true,
   "tags": [],
   "source": {
