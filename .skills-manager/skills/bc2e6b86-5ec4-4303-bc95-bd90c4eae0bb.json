@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "skill_id": "0f69fbff-74bb-492e-a80f-132f0a022a73",
-  "path": "jp-garbled-rename",
-  "path_key": "jp-garbled-rename",
+  "skill_id": "bc2e6b86-5ec4-4303-bc95-bd90c4eae0bb",
+  "path": "using-superpowers",
+  "path_key": "using-superpowers",
   "enabled": true,
   "tags": [],
   "source": {
