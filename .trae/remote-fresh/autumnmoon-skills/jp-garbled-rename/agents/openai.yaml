@@ -1,0 +1,7 @@
+interface:
+  display_name: "日文乱码重命名"
+  short_description: "修复日文(Shift-JIS)乱码名并翻译为中文"
+  default_prompt: "使用 $jp-garbled-rename 修复本目录的日文乱码文件/文件夹名，按GBK->Shift-JIS还原后翻译为中文并批量重命名。"
+
+policy:
+  allow_implicit_invocation: true

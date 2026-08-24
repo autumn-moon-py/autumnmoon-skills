@@ -1,0 +1,60 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "manifest-marketplace",
+  "version": "1.0.0",
+  "description": "Ruby and Rails related Claude Code Skills, Commands and Plugins",
+  "owner": {
+    "name": "Mohamad Kaakati",
+    "email": "hello@kaakati.me"
+  },
+  "plugins": [
+    {
+      "name": "rails-enterprise-dev",
+      "source": "./plugins/rails-enterprise-dev",
+      "description": "Enterprise-grade Rails development workflow with multi-agent orchestration, beads task tracking, and quality gates.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Mohamad Kaakati",
+        "email": "hello@kaakati.me"
+      },
+      "homepage": "https://github.com/kaakati/rails-enterprise-dev",
+      "category": "development"
+    },
+    {
+      "name": "reactree-rails-dev",
+      "source": "./plugins/reactree-rails-dev",
+      "version": "2.14.0",
+      "description": "ReAcTree Rails development with multi-agent orchestration, LSP-powered context compilation, Guardian validation cycle, mandatory planning-to-implementation handoff, parallel agent spawning, dual memory systems with 24h TTL caching, smart intent detection, UX Engineer, optimized model selection, and comprehensive skills library for A+ type-safe code",
+      "author": {
+        "name": "Mohamad Kaakati",
+        "email": "hello@kaakati.me"
+      },
+      "homepage": "https://github.com/kaakati/rails-enterprise-dev",
+      "category": "development"
+    },
+    {
+      "name": "reactree-flutter-dev",
+      "source": "./plugins/reactree-flutter-dev",
+      "version": "1.1.0",
+      "description": "Flutter development with GetX state management, Clean Architecture, multi-agent orchestration, quality gates, comprehensive testing patterns, navigation, i18n, performance optimization, and accessibility patterns",
+      "author": {
+        "name": "Mohamad Kaakati",
+        "email": "hello@kaakati.me"
+      },
+      "homepage": "https://github.com/kaakati/flutter-enterprise-dev",
+      "category": "development"
+    },
+    {
+      "name": "reactree-ios-dev",
+      "source": "./plugins/reactree-ios-dev",
+      "version": "2.1.0",
+      "description": "iOS and tvOS development with SwiftUI, MVVM, Clean Architecture, 14 specialized agents, 27 comprehensive skills, automated quality gates, hooks system, one-command setup (/ios-init), beads integration, offline sync, push notifications, tvOS focus navigation, accessibility testing, performance profiling, and dual memory systems",
+      "author": {
+        "name": "Mohamad Kaakati",
+        "email": "hello@kaakati.me"
+      },
+      "homepage": "https://github.com/kaakati/ios-enterprise-dev",
+      "category": "development"
+    }
+  ]
+}
