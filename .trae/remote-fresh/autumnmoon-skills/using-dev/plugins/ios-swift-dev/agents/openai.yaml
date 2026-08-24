@@ -1,7 +1,0 @@
-interface:
-  display_name: "iOS Swift 原生开发"
-  short_description: "SwiftUI、并发、性能、网络、安全与测试"
-  default_prompt: "使用 $ios-swift-dev 帮我处理一个 iOS 原生 Swift 或 SwiftUI 开发任务。"
-
-policy:
-  allow_implicit_invocation: true
