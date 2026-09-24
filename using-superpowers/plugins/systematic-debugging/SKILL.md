@@ -175,8 +175,7 @@ description: 遇到任何 bug、测试失败或异常行为时使用，在提出
    - 最简化的复现
    - 尽可能用自动化测试
    - 没有测试框架就写一次性测试脚本
-   - 修复前必须先有测试
-   - 使用 `superpowers:test-driven-development` 技能来编写规范的失败测试
+   - 修复前必须先有测试，且必须是规范的失败测试
 
 2. **实施单一修复**
    - 修复已定位的根本原因
@@ -284,8 +283,7 @@ description: 遇到任何 bug、测试失败或异常行为时使用，在提出
 - **`condition-based-waiting.md`** - 用条件轮询替代硬编码等待时间
 
 **相关技能：**
-- **superpowers:test-driven-development** - 用于创建失败测试用例（第四阶段，第 1 步）
-- **superpowers:verification-before-completion** - 在宣称成功之前验证修复确实有效
+- **verification-before-completion** - 在宣称成功之前验证修复确实有效
 
 ## 实际效果
 

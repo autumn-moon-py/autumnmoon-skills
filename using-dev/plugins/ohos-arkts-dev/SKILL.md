@@ -23,4 +23,4 @@ description: ArkTS语言主SKILL，聚焦类型系统、并发与性能、TS/Jav
 5. 语言反模式与验收题
 
 ## 备注
-- Flutter混编工程请使用：`using-flutter:ohos-flutter-dev`
+- Flutter混编工程请使用：`ohos-flutter-dev`

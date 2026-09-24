@@ -46,14 +46,13 @@ Flutter 技能覆盖默认系统提示行为，但**用户指令始终具有最�
 当多个技能可能适用时，使用此顺序：
 
 1. **流程技能优先**（头脑风暴、调试）- 这些决定如何处理任务
-2. **平台技能其次**（flutter-app-dev、flutter-ios-bridge-dev、ohos-flutter-dev、flutter-architecture、flutter-dart-code-review、getx-state-management）- 这些指导执行
+2. **平台技能其次**（flutter-app-dev、flutter-ios-bridge-dev、ohos-flutter-dev、flutter-architecture、flutter-dart-code-review）- 这些指导执行
 
 "给 Flutter 加个新页面" -> 先头脑风暴，再使用 flutter-app-dev。
 "Flutter 调不到 iOS 原生方法" -> 先调试，再使用 flutter-ios-bridge-dev。
 "鸿蒙 Flutter 插件报错" -> 先调试，再使用 ohos-flutter-dev。
 "Flutter 项目架构怎么分层" -> 先头脑风暴，再使用 flutter-architecture。
 "审查 Flutter/Dart 代码" -> 使用 flutter-dart-code-review。
-"GetX 状态管理怎么做" -> 使用 getx-state-management。
 
 ## 技能类型
 
@@ -99,7 +98,7 @@ Flutter 技能覆盖默认系统提示行为，但**用户指令始终具有最�
 
 **适用：** 新项目需要确定分层架构；现有项目需要重构为可扩展的分层结构；需要确定 ViewModel/Repository/Service 的职责边界和依赖注入方式。
 
-**不适用：** 纯 UI/主题/动画开发（用 flutter-app-dev）；状态管理选型（用 getx-state-management）；代码审查（用 flutter-dart-code-review）。
+**不适用：** 纯 UI/主题/动画开发（用 flutter-app-dev）；代码审查（用 flutter-dart-code-review）。
 
 ## flutter-dart-code-review
 
@@ -108,11 +107,3 @@ Flutter 技能覆盖默认系统提示行为，但**用户指令始终具有最�
 **适用：** 审查 Flutter/Dart 代码质量；确保 Widget 分解、const 使用、Key 使用、状态管理架构、性能优化、可访问性合规；评估 pub.dev 依赖质量。
 
 **不适用：** 非 Flutter/Dart 项目（用 chinese-code-review 或 karpathy-guidelines）；纯架构设计（用 flutter-architecture）。
-
-## getx-state-management
-
-**触发：** GetX 状态管理模式——使用 GetX 进行 Flutter 状态管理、路由、依赖注入的企业级工作流。
-
-**适用：** 项目使用或计划使用 GetX；需要 GetX 状态管理最佳实践；需要 GetX 路由和依赖注入模式；需要多智能体编排的 Rails/iOS 混合开发工作流。
-
-**不适用：** 不使用 GetX 的 Flutter 项目；纯架构分层设计（用 flutter-architecture）；代码审查（用 flutter-dart-code-review）。

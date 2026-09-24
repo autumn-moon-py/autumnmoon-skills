@@ -15,7 +15,7 @@ description: 当创建新技能、编辑现有技能或在部署前验证技能�
 
 **核心原则：** 如果你没有观察到智能体在没有该技能时失败，你就不知道这个技能是否教了正确的东西。
 
-**必需背景：** 在使用此技能前，你必须理解 using-superpowers:test-driven-development。该技能定义了基本的红-绿-重构循环。本技能将 TDD 适配到文档编写中。
+**必需背景：** 在使用此技能前，你必须理解基本的红-绿-重构循环。本技能将 TDD 适配到文档编写中。
 
 **官方指南：** Anthropic 官方的技能编写最佳实践请参见 anthropic-best-practices.md。该文档提供了补充本技能 TDD 导向方法的额外模式和指南。
 
@@ -279,10 +279,10 @@ wc -w skills/path/SKILL.md
 **编写引用其他技能的文档时：**
 
 仅使用技能名称，带有明确的必需标记：
-- ✅ 好的：`**必需子技能：** 使用 using-superpowers:test-driven-development`
-- ✅ 好的：`**必需背景：** 你必须理解 using-superpowers:systematic-debugging`
-- ❌ 差的：`参见 skills/testing/test-driven-development`（不清楚是否必需）
-- ❌ 差的：`@skills/testing/test-driven-development/SKILL.md`（强制加载，浪费上下文）
+- ✅ 好的：`**必需子技能：** 使用 executing-plans`
+- ✅ 好的：`**必需背景：** 你必须理解 systematic-debugging`
+- ❌ 差的：`参见 using-superpowers/plugins/verification-before-completion`（不清楚是否必需）
+- ❌ 差的：`@using-superpowers/plugins/verification-before-completion/SKILL.md`（强制加载，浪费上下文）
 
 **为什么不用 @ 链接：** `@` 语法会立即强制加载文件，在你需要之前就消耗 200k+ 的上下文。
 
@@ -389,7 +389,7 @@ pptx/
 - 不要在运行测试时"调整"
 - 删除就是删除
 
-**必需背景：** using-superpowers:test-driven-development 技能解释了为什么这很重要。相同的原则适用于文档。
+**必需背景：** 红-绿-重构循环解释了为什么这很重要。相同的原则适用于文档。
 
 ## 测试所有技能类型
 

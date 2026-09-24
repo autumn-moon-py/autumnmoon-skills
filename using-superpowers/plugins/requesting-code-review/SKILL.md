@@ -5,7 +5,7 @@ description: 完成任务、实现重要功能或合并前使用，用于验证�
 
 # 请求代码审查
 
-派遣 superpowers:code-reviewer 子代理来在问题扩散之前发现它们。审查者获得的是精心组织的评估上下文——绝不是你的会话历史。这样可以让审查者专注于工作成果而非你的思考过程，同时保留你自己的上下文以便继续工作。
+派遣 code-reviewer 子代理来在问题扩散之前发现它们。审查者获得的是精心组织的评估上下文——绝不是你的会话历史。这样可以让审查者专注于工作成果而非你的思考过程，同时保留你自己的上下文以便继续工作。
 
 **核心原则：** 早审查，勤审查。
 
@@ -31,7 +31,7 @@ HEAD_SHA=$(git rev-parse HEAD)
 
 **2. 派遣 code-reviewer 子代理：**
 
-使用 Task 工具，指定 superpowers:code-reviewer 类型，填写 `code-reviewer.md` 中的模板
+使用 Task 工具，指定 code-reviewer 类型，填写 `code-reviewer.md` 中的模板
 
 **占位符说明：**
 - `{WHAT_WAS_IMPLEMENTED}` - 你刚完成的内容
@@ -56,7 +56,7 @@ HEAD_SHA=$(git rev-parse HEAD)
 BASE_SHA=$(git log --oneline | grep "Task 1" | head -1 | awk '{print $1}')
 HEAD_SHA=$(git rev-parse HEAD)
 
-[派遣 superpowers:code-reviewer 子代理]
+[派遣 code-reviewer 子代理]
   WHAT_WAS_IMPLEMENTED: 会话索引的验证和修复功能
   PLAN_OR_REQUIREMENTS: docs/superpowers/plans/deployment-plan.md 中的任务 2
   BASE_SHA: a7981ec
